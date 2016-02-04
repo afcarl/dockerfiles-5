@@ -2,4 +2,4 @@
 
 ## Usage
 
-> docker run -ti -v $(git rev-parse --show-toplevel):/app veggiemonk/tig
+> docker run -ti --rm -v $(git rev-parse --show-toplevel):/app veggiemonk/tig
