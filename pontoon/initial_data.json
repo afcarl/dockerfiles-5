@@ -1,0 +1,2996 @@
+[
+{
+  "fields": {
+    "codename": "can_translate_locale",
+    "name": "Can add translations",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 1
+},
+{
+  "fields": {
+    "codename": "can_manage_locale",
+    "name": "Can manage locale",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 2
+},
+{
+  "fields": {
+    "codename": "add_userprofile",
+    "name": "Can add user profile",
+    "content_type": 2
+  },
+  "model": "auth.permission",
+  "pk": 3
+},
+{
+  "fields": {
+    "codename": "change_userprofile",
+    "name": "Can change user profile",
+    "content_type": 2
+  },
+  "model": "auth.permission",
+  "pk": 4
+},
+{
+  "fields": {
+    "codename": "delete_userprofile",
+    "name": "Can delete user profile",
+    "content_type": 2
+  },
+  "model": "auth.permission",
+  "pk": 5
+},
+{
+  "fields": {
+    "codename": "add_locale",
+    "name": "Can add locale",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 6
+},
+{
+  "fields": {
+    "codename": "change_locale",
+    "name": "Can change locale",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 7
+},
+{
+  "fields": {
+    "codename": "delete_locale",
+    "name": "Can delete locale",
+    "content_type": 1
+  },
+  "model": "auth.permission",
+  "pk": 8
+},
+{
+  "fields": {
+    "codename": "add_project",
+    "name": "Can add project",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 9
+},
+{
+  "fields": {
+    "codename": "change_project",
+    "name": "Can change project",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 10
+},
+{
+  "fields": {
+    "codename": "delete_project",
+    "name": "Can delete project",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 11
+},
+{
+  "fields": {
+    "codename": "can_manage",
+    "name": "Can manage projects",
+    "content_type": 3
+  },
+  "model": "auth.permission",
+  "pk": 12
+},
+{
+  "fields": {
+    "codename": "add_projectlocale",
+    "name": "Can add project locale",
+    "content_type": 4
+  },
+  "model": "auth.permission",
+  "pk": 13
+},
+{
+  "fields": {
+    "codename": "change_projectlocale",
+    "name": "Can change project locale",
+    "content_type": 4
+  },
+  "model": "auth.permission",
+  "pk": 14
+},
+{
+  "fields": {
+    "codename": "delete_projectlocale",
+    "name": "Can delete project locale",
+    "content_type": 4
+  },
+  "model": "auth.permission",
+  "pk": 15
+},
+{
+  "fields": {
+    "codename": "add_repository",
+    "name": "Can add repository",
+    "content_type": 5
+  },
+  "model": "auth.permission",
+  "pk": 16
+},
+{
+  "fields": {
+    "codename": "change_repository",
+    "name": "Can change repository",
+    "content_type": 5
+  },
+  "model": "auth.permission",
+  "pk": 17
+},
+{
+  "fields": {
+    "codename": "delete_repository",
+    "name": "Can delete repository",
+    "content_type": 5
+  },
+  "model": "auth.permission",
+  "pk": 18
+},
+{
+  "fields": {
+    "codename": "add_resource",
+    "name": "Can add resource",
+    "content_type": 6
+  },
+  "model": "auth.permission",
+  "pk": 19
+},
+{
+  "fields": {
+    "codename": "change_resource",
+    "name": "Can change resource",
+    "content_type": 6
+  },
+  "model": "auth.permission",
+  "pk": 20
+},
+{
+  "fields": {
+    "codename": "delete_resource",
+    "name": "Can delete resource",
+    "content_type": 6
+  },
+  "model": "auth.permission",
+  "pk": 21
+},
+{
+  "fields": {
+    "codename": "add_subpage",
+    "name": "Can add subpage",
+    "content_type": 7
+  },
+  "model": "auth.permission",
+  "pk": 22
+},
+{
+  "fields": {
+    "codename": "change_subpage",
+    "name": "Can change subpage",
+    "content_type": 7
+  },
+  "model": "auth.permission",
+  "pk": 23
+},
+{
+  "fields": {
+    "codename": "delete_subpage",
+    "name": "Can delete subpage",
+    "content_type": 7
+  },
+  "model": "auth.permission",
+  "pk": 24
+},
+{
+  "fields": {
+    "codename": "add_entity",
+    "name": "Can add entity",
+    "content_type": 8
+  },
+  "model": "auth.permission",
+  "pk": 25
+},
+{
+  "fields": {
+    "codename": "change_entity",
+    "name": "Can change entity",
+    "content_type": 8
+  },
+  "model": "auth.permission",
+  "pk": 26
+},
+{
+  "fields": {
+    "codename": "delete_entity",
+    "name": "Can delete entity",
+    "content_type": 8
+  },
+  "model": "auth.permission",
+  "pk": 27
+},
+{
+  "fields": {
+    "codename": "add_changedentitylocale",
+    "name": "Can add changed entity locale",
+    "content_type": 9
+  },
+  "model": "auth.permission",
+  "pk": 28
+},
+{
+  "fields": {
+    "codename": "change_changedentitylocale",
+    "name": "Can change changed entity locale",
+    "content_type": 9
+  },
+  "model": "auth.permission",
+  "pk": 29
+},
+{
+  "fields": {
+    "codename": "delete_changedentitylocale",
+    "name": "Can delete changed entity locale",
+    "content_type": 9
+  },
+  "model": "auth.permission",
+  "pk": 30
+},
+{
+  "fields": {
+    "codename": "add_translation",
+    "name": "Can add translation",
+    "content_type": 10
+  },
+  "model": "auth.permission",
+  "pk": 31
+},
+{
+  "fields": {
+    "codename": "change_translation",
+    "name": "Can change translation",
+    "content_type": 10
+  },
+  "model": "auth.permission",
+  "pk": 32
+},
+{
+  "fields": {
+    "codename": "delete_translation",
+    "name": "Can delete translation",
+    "content_type": 10
+  },
+  "model": "auth.permission",
+  "pk": 33
+},
+{
+  "fields": {
+    "codename": "add_translationmemoryentry",
+    "name": "Can add translation memory entry",
+    "content_type": 11
+  },
+  "model": "auth.permission",
+  "pk": 34
+},
+{
+  "fields": {
+    "codename": "change_translationmemoryentry",
+    "name": "Can change translation memory entry",
+    "content_type": 11
+  },
+  "model": "auth.permission",
+  "pk": 35
+},
+{
+  "fields": {
+    "codename": "delete_translationmemoryentry",
+    "name": "Can delete translation memory entry",
+    "content_type": 11
+  },
+  "model": "auth.permission",
+  "pk": 36
+},
+{
+  "fields": {
+    "codename": "add_stats",
+    "name": "Can add stats",
+    "content_type": 12
+  },
+  "model": "auth.permission",
+  "pk": 37
+},
+{
+  "fields": {
+    "codename": "change_stats",
+    "name": "Can change stats",
+    "content_type": 12
+  },
+  "model": "auth.permission",
+  "pk": 38
+},
+{
+  "fields": {
+    "codename": "delete_stats",
+    "name": "Can delete stats",
+    "content_type": 12
+  },
+  "model": "auth.permission",
+  "pk": 39
+},
+{
+  "fields": {
+    "codename": "add_synclog",
+    "name": "Can add sync log",
+    "content_type": 13
+  },
+  "model": "auth.permission",
+  "pk": 40
+},
+{
+  "fields": {
+    "codename": "change_synclog",
+    "name": "Can change sync log",
+    "content_type": 13
+  },
+  "model": "auth.permission",
+  "pk": 41
+},
+{
+  "fields": {
+    "codename": "delete_synclog",
+    "name": "Can delete sync log",
+    "content_type": 13
+  },
+  "model": "auth.permission",
+  "pk": 42
+},
+{
+  "fields": {
+    "codename": "add_projectsynclog",
+    "name": "Can add project sync log",
+    "content_type": 14
+  },
+  "model": "auth.permission",
+  "pk": 43
+},
+{
+  "fields": {
+    "codename": "change_projectsynclog",
+    "name": "Can change project sync log",
+    "content_type": 14
+  },
+  "model": "auth.permission",
+  "pk": 44
+},
+{
+  "fields": {
+    "codename": "delete_projectsynclog",
+    "name": "Can delete project sync log",
+    "content_type": 14
+  },
+  "model": "auth.permission",
+  "pk": 45
+},
+{
+  "fields": {
+    "codename": "add_repositorysynclog",
+    "name": "Can add repository sync log",
+    "content_type": 15
+  },
+  "model": "auth.permission",
+  "pk": 46
+},
+{
+  "fields": {
+    "codename": "change_repositorysynclog",
+    "name": "Can change repository sync log",
+    "content_type": 15
+  },
+  "model": "auth.permission",
+  "pk": 47
+},
+{
+  "fields": {
+    "codename": "delete_repositorysynclog",
+    "name": "Can delete repository sync log",
+    "content_type": 15
+  },
+  "model": "auth.permission",
+  "pk": 48
+},
+{
+  "fields": {
+    "codename": "add_logentry",
+    "name": "Can add log entry",
+    "content_type": 16
+  },
+  "model": "auth.permission",
+  "pk": 49
+},
+{
+  "fields": {
+    "codename": "change_logentry",
+    "name": "Can change log entry",
+    "content_type": 16
+  },
+  "model": "auth.permission",
+  "pk": 50
+},
+{
+  "fields": {
+    "codename": "delete_logentry",
+    "name": "Can delete log entry",
+    "content_type": 16
+  },
+  "model": "auth.permission",
+  "pk": 51
+},
+{
+  "fields": {
+    "codename": "add_permission",
+    "name": "Can add permission",
+    "content_type": 17
+  },
+  "model": "auth.permission",
+  "pk": 52
+},
+{
+  "fields": {
+    "codename": "change_permission",
+    "name": "Can change permission",
+    "content_type": 17
+  },
+  "model": "auth.permission",
+  "pk": 53
+},
+{
+  "fields": {
+    "codename": "delete_permission",
+    "name": "Can delete permission",
+    "content_type": 17
+  },
+  "model": "auth.permission",
+  "pk": 54
+},
+{
+  "fields": {
+    "codename": "add_group",
+    "name": "Can add group",
+    "content_type": 18
+  },
+  "model": "auth.permission",
+  "pk": 55
+},
+{
+  "fields": {
+    "codename": "change_group",
+    "name": "Can change group",
+    "content_type": 18
+  },
+  "model": "auth.permission",
+  "pk": 56
+},
+{
+  "fields": {
+    "codename": "delete_group",
+    "name": "Can delete group",
+    "content_type": 18
+  },
+  "model": "auth.permission",
+  "pk": 57
+},
+{
+  "fields": {
+    "codename": "add_user",
+    "name": "Can add user",
+    "content_type": 19
+  },
+  "model": "auth.permission",
+  "pk": 58
+},
+{
+  "fields": {
+    "codename": "change_user",
+    "name": "Can change user",
+    "content_type": 19
+  },
+  "model": "auth.permission",
+  "pk": 59
+},
+{
+  "fields": {
+    "codename": "delete_user",
+    "name": "Can delete user",
+    "content_type": 19
+  },
+  "model": "auth.permission",
+  "pk": 60
+},
+{
+  "fields": {
+    "codename": "add_contenttype",
+    "name": "Can add content type",
+    "content_type": 20
+  },
+  "model": "auth.permission",
+  "pk": 61
+},
+{
+  "fields": {
+    "codename": "change_contenttype",
+    "name": "Can change content type",
+    "content_type": 20
+  },
+  "model": "auth.permission",
+  "pk": 62
+},
+{
+  "fields": {
+    "codename": "delete_contenttype",
+    "name": "Can delete content type",
+    "content_type": 20
+  },
+  "model": "auth.permission",
+  "pk": 63
+},
+{
+  "fields": {
+    "codename": "add_session",
+    "name": "Can add session",
+    "content_type": 21
+  },
+  "model": "auth.permission",
+  "pk": 64
+},
+{
+  "fields": {
+    "codename": "change_session",
+    "name": "Can change session",
+    "content_type": 21
+  },
+  "model": "auth.permission",
+  "pk": 65
+},
+{
+  "fields": {
+    "codename": "delete_session",
+    "name": "Can delete session",
+    "content_type": 21
+  },
+  "model": "auth.permission",
+  "pk": 66
+},
+{
+  "fields": {
+    "codename": "add_userobjectpermission",
+    "name": "Can add user object permission",
+    "content_type": 22
+  },
+  "model": "auth.permission",
+  "pk": 67
+},
+{
+  "fields": {
+    "codename": "change_userobjectpermission",
+    "name": "Can change user object permission",
+    "content_type": 22
+  },
+  "model": "auth.permission",
+  "pk": 68
+},
+{
+  "fields": {
+    "codename": "delete_userobjectpermission",
+    "name": "Can delete user object permission",
+    "content_type": 22
+  },
+  "model": "auth.permission",
+  "pk": 69
+},
+{
+  "fields": {
+    "codename": "add_groupobjectpermission",
+    "name": "Can add group object permission",
+    "content_type": 23
+  },
+  "model": "auth.permission",
+  "pk": 70
+},
+{
+  "fields": {
+    "codename": "change_groupobjectpermission",
+    "name": "Can change group object permission",
+    "content_type": 23
+  },
+  "model": "auth.permission",
+  "pk": 71
+},
+{
+  "fields": {
+    "codename": "delete_groupobjectpermission",
+    "name": "Can delete group object permission",
+    "content_type": 23
+  },
+  "model": "auth.permission",
+  "pk": 72
+},
+{
+  "fields": {
+    "name": "af translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 1
+},
+{
+  "fields": {
+    "name": "af managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 2
+},
+{
+  "fields": {
+    "name": "ak translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 3
+},
+{
+  "fields": {
+    "name": "ak managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 4
+},
+{
+  "fields": {
+    "name": "sq translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 5
+},
+{
+  "fields": {
+    "name": "sq managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 6
+},
+{
+  "fields": {
+    "name": "ar translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 7
+},
+{
+  "fields": {
+    "name": "ar managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 8
+},
+{
+  "fields": {
+    "name": "an translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 9
+},
+{
+  "fields": {
+    "name": "an managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 10
+},
+{
+  "fields": {
+    "name": "hy-AM translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 11
+},
+{
+  "fields": {
+    "name": "hy-AM managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 12
+},
+{
+  "fields": {
+    "name": "as translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 13
+},
+{
+  "fields": {
+    "name": "as managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 14
+},
+{
+  "fields": {
+    "name": "ast translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 15
+},
+{
+  "fields": {
+    "name": "ast managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 16
+},
+{
+  "fields": {
+    "name": "az translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 17
+},
+{
+  "fields": {
+    "name": "az managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 18
+},
+{
+  "fields": {
+    "name": "eu translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 19
+},
+{
+  "fields": {
+    "name": "eu managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 20
+},
+{
+  "fields": {
+    "name": "be translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 21
+},
+{
+  "fields": {
+    "name": "be managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 22
+},
+{
+  "fields": {
+    "name": "bn-BD translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 23
+},
+{
+  "fields": {
+    "name": "bn-BD managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 24
+},
+{
+  "fields": {
+    "name": "bn-IN translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 25
+},
+{
+  "fields": {
+    "name": "bn-IN managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 26
+},
+{
+  "fields": {
+    "name": "bs translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 27
+},
+{
+  "fields": {
+    "name": "bs managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 28
+},
+{
+  "fields": {
+    "name": "br translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 29
+},
+{
+  "fields": {
+    "name": "br managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 30
+},
+{
+  "fields": {
+    "name": "bg translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 31
+},
+{
+  "fields": {
+    "name": "bg managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 32
+},
+{
+  "fields": {
+    "name": "my translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 33
+},
+{
+  "fields": {
+    "name": "my managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 34
+},
+{
+  "fields": {
+    "name": "ca translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 35
+},
+{
+  "fields": {
+    "name": "ca managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 36
+},
+{
+  "fields": {
+    "name": "zh-CN translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 37
+},
+{
+  "fields": {
+    "name": "zh-CN managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 38
+},
+{
+  "fields": {
+    "name": "zh-TW translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 39
+},
+{
+  "fields": {
+    "name": "zh-TW managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 40
+},
+{
+  "fields": {
+    "name": "hr translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 41
+},
+{
+  "fields": {
+    "name": "hr managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 42
+},
+{
+  "fields": {
+    "name": "cs translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 43
+},
+{
+  "fields": {
+    "name": "cs managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 44
+},
+{
+  "fields": {
+    "name": "da translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 45
+},
+{
+  "fields": {
+    "name": "da managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 46
+},
+{
+  "fields": {
+    "name": "nl translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 47
+},
+{
+  "fields": {
+    "name": "nl managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 48
+},
+{
+  "fields": {
+    "name": "en translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 49
+},
+{
+  "fields": {
+    "name": "en managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 50
+},
+{
+  "fields": {
+    "name": "en-GB translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 51
+},
+{
+  "fields": {
+    "name": "en-GB managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 52
+},
+{
+  "fields": {
+    "name": "en-US translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 53
+},
+{
+  "fields": {
+    "name": "en-US managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 54
+},
+{
+  "fields": {
+    "name": "en-ZA translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 55
+},
+{
+  "fields": {
+    "name": "en-ZA managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 56
+},
+{
+  "fields": {
+    "name": "eo translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 57
+},
+{
+  "fields": {
+    "name": "eo managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 58
+},
+{
+  "fields": {
+    "name": "et translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 59
+},
+{
+  "fields": {
+    "name": "et managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 60
+},
+{
+  "fields": {
+    "name": "fi translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 61
+},
+{
+  "fields": {
+    "name": "fi managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 62
+},
+{
+  "fields": {
+    "name": "fr translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 63
+},
+{
+  "fields": {
+    "name": "fr managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 64
+},
+{
+  "fields": {
+    "name": "fur translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 65
+},
+{
+  "fields": {
+    "name": "fur managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 66
+},
+{
+  "fields": {
+    "name": "ff translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 67
+},
+{
+  "fields": {
+    "name": "ff managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 68
+},
+{
+  "fields": {
+    "name": "gd translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 69
+},
+{
+  "fields": {
+    "name": "gd managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 70
+},
+{
+  "fields": {
+    "name": "gl translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 71
+},
+{
+  "fields": {
+    "name": "gl managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 72
+},
+{
+  "fields": {
+    "name": "ka translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 73
+},
+{
+  "fields": {
+    "name": "ka managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 74
+},
+{
+  "fields": {
+    "name": "de translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 75
+},
+{
+  "fields": {
+    "name": "de managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 76
+},
+{
+  "fields": {
+    "name": "el translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 77
+},
+{
+  "fields": {
+    "name": "el managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 78
+},
+{
+  "fields": {
+    "name": "gu-IN translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 79
+},
+{
+  "fields": {
+    "name": "gu-IN managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 80
+},
+{
+  "fields": {
+    "name": "ht translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 81
+},
+{
+  "fields": {
+    "name": "ht managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 82
+},
+{
+  "fields": {
+    "name": "he translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 83
+},
+{
+  "fields": {
+    "name": "he managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 84
+},
+{
+  "fields": {
+    "name": "hi-IN translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 85
+},
+{
+  "fields": {
+    "name": "hi-IN managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 86
+},
+{
+  "fields": {
+    "name": "hu translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 87
+},
+{
+  "fields": {
+    "name": "hu managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 88
+},
+{
+  "fields": {
+    "name": "is translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 89
+},
+{
+  "fields": {
+    "name": "is managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 90
+},
+{
+  "fields": {
+    "name": "ilo translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 91
+},
+{
+  "fields": {
+    "name": "ilo managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 92
+},
+{
+  "fields": {
+    "name": "id translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 93
+},
+{
+  "fields": {
+    "name": "id managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 94
+},
+{
+  "fields": {
+    "name": "ga translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 95
+},
+{
+  "fields": {
+    "name": "ga managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 96
+},
+{
+  "fields": {
+    "name": "ga-IE translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 97
+},
+{
+  "fields": {
+    "name": "ga-IE managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 98
+},
+{
+  "fields": {
+    "name": "it translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 99
+},
+{
+  "fields": {
+    "name": "it managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 100
+},
+{
+  "fields": {
+    "name": "ja translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 101
+},
+{
+  "fields": {
+    "name": "ja managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 102
+},
+{
+  "fields": {
+    "name": "kn translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 103
+},
+{
+  "fields": {
+    "name": "kn managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 104
+},
+{
+  "fields": {
+    "name": "csb translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 105
+},
+{
+  "fields": {
+    "name": "csb managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 106
+},
+{
+  "fields": {
+    "name": "kk translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 107
+},
+{
+  "fields": {
+    "name": "kk managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 108
+},
+{
+  "fields": {
+    "name": "km translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 109
+},
+{
+  "fields": {
+    "name": "km managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 110
+},
+{
+  "fields": {
+    "name": "ko translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 111
+},
+{
+  "fields": {
+    "name": "ko managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 112
+},
+{
+  "fields": {
+    "name": "ku translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 113
+},
+{
+  "fields": {
+    "name": "ku managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 114
+},
+{
+  "fields": {
+    "name": "lv translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 115
+},
+{
+  "fields": {
+    "name": "lv managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 116
+},
+{
+  "fields": {
+    "name": "lij translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 117
+},
+{
+  "fields": {
+    "name": "lij managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 118
+},
+{
+  "fields": {
+    "name": "lt translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 119
+},
+{
+  "fields": {
+    "name": "lt managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 120
+},
+{
+  "fields": {
+    "name": "dsb translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 121
+},
+{
+  "fields": {
+    "name": "dsb managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 122
+},
+{
+  "fields": {
+    "name": "mk translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 123
+},
+{
+  "fields": {
+    "name": "mk managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 124
+},
+{
+  "fields": {
+    "name": "mai translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 125
+},
+{
+  "fields": {
+    "name": "mai managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 126
+},
+{
+  "fields": {
+    "name": "ms translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 127
+},
+{
+  "fields": {
+    "name": "ms managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 128
+},
+{
+  "fields": {
+    "name": "ml translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 129
+},
+{
+  "fields": {
+    "name": "ml managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 130
+},
+{
+  "fields": {
+    "name": "mr translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 131
+},
+{
+  "fields": {
+    "name": "mr managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 132
+},
+{
+  "fields": {
+    "name": "mn translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 133
+},
+{
+  "fields": {
+    "name": "mn managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 134
+},
+{
+  "fields": {
+    "name": "ne-NP translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 135
+},
+{
+  "fields": {
+    "name": "ne-NP managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 136
+},
+{
+  "fields": {
+    "name": "nso translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 137
+},
+{
+  "fields": {
+    "name": "nso managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 138
+},
+{
+  "fields": {
+    "name": "nb-NO translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 139
+},
+{
+  "fields": {
+    "name": "nb-NO managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 140
+},
+{
+  "fields": {
+    "name": "nn-NO translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 141
+},
+{
+  "fields": {
+    "name": "nn-NO managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 142
+},
+{
+  "fields": {
+    "name": "oc translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 143
+},
+{
+  "fields": {
+    "name": "oc managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 144
+},
+{
+  "fields": {
+    "name": "or translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 145
+},
+{
+  "fields": {
+    "name": "or managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 146
+},
+{
+  "fields": {
+    "name": "fa translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 147
+},
+{
+  "fields": {
+    "name": "fa managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 148
+},
+{
+  "fields": {
+    "name": "pl translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 149
+},
+{
+  "fields": {
+    "name": "pl managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 150
+},
+{
+  "fields": {
+    "name": "pt translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 151
+},
+{
+  "fields": {
+    "name": "pt managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 152
+},
+{
+  "fields": {
+    "name": "pt-BR translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 153
+},
+{
+  "fields": {
+    "name": "pt-BR managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 154
+},
+{
+  "fields": {
+    "name": "pt-PT translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 155
+},
+{
+  "fields": {
+    "name": "pt-PT managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 156
+},
+{
+  "fields": {
+    "name": "pa-IN translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 157
+},
+{
+  "fields": {
+    "name": "pa-IN managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 158
+},
+{
+  "fields": {
+    "name": "ro translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 159
+},
+{
+  "fields": {
+    "name": "ro managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 160
+},
+{
+  "fields": {
+    "name": "rm translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 161
+},
+{
+  "fields": {
+    "name": "rm managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 162
+},
+{
+  "fields": {
+    "name": "ru translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 163
+},
+{
+  "fields": {
+    "name": "ru managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 164
+},
+{
+  "fields": {
+    "name": "sr translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 165
+},
+{
+  "fields": {
+    "name": "sr managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 166
+},
+{
+  "fields": {
+    "name": "si translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 167
+},
+{
+  "fields": {
+    "name": "si managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 168
+},
+{
+  "fields": {
+    "name": "sk translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 169
+},
+{
+  "fields": {
+    "name": "sk managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 170
+},
+{
+  "fields": {
+    "name": "sl translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 171
+},
+{
+  "fields": {
+    "name": "sl managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 172
+},
+{
+  "fields": {
+    "name": "son translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 173
+},
+{
+  "fields": {
+    "name": "son managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 174
+},
+{
+  "fields": {
+    "name": "es translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 175
+},
+{
+  "fields": {
+    "name": "es managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 176
+},
+{
+  "fields": {
+    "name": "es-AR translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 177
+},
+{
+  "fields": {
+    "name": "es-AR managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 178
+},
+{
+  "fields": {
+    "name": "es-CL translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 179
+},
+{
+  "fields": {
+    "name": "es-CL managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 180
+},
+{
+  "fields": {
+    "name": "es-ES translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 181
+},
+{
+  "fields": {
+    "name": "es-ES managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 182
+},
+{
+  "fields": {
+    "name": "es-MX translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 183
+},
+{
+  "fields": {
+    "name": "es-MX managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 184
+},
+{
+  "fields": {
+    "name": "sw translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 185
+},
+{
+  "fields": {
+    "name": "sw managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 186
+},
+{
+  "fields": {
+    "name": "sv-SE translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 187
+},
+{
+  "fields": {
+    "name": "sv-SE managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 188
+},
+{
+  "fields": {
+    "name": "tl translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 189
+},
+{
+  "fields": {
+    "name": "tl managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 190
+},
+{
+  "fields": {
+    "name": "ta translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 191
+},
+{
+  "fields": {
+    "name": "ta managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 192
+},
+{
+  "fields": {
+    "name": "ta-LK translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 193
+},
+{
+  "fields": {
+    "name": "ta-LK managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 194
+},
+{
+  "fields": {
+    "name": "te translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 195
+},
+{
+  "fields": {
+    "name": "te managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 196
+},
+{
+  "fields": {
+    "name": "th translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 197
+},
+{
+  "fields": {
+    "name": "th managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 198
+},
+{
+  "fields": {
+    "name": "tr translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 199
+},
+{
+  "fields": {
+    "name": "tr managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 200
+},
+{
+  "fields": {
+    "name": "uk translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 201
+},
+{
+  "fields": {
+    "name": "uk managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 202
+},
+{
+  "fields": {
+    "name": "hsb translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 203
+},
+{
+  "fields": {
+    "name": "hsb managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 204
+},
+{
+  "fields": {
+    "name": "ur translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 205
+},
+{
+  "fields": {
+    "name": "ur managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 206
+},
+{
+  "fields": {
+    "name": "uz translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 207
+},
+{
+  "fields": {
+    "name": "uz managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 208
+},
+{
+  "fields": {
+    "name": "vi translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 209
+},
+{
+  "fields": {
+    "name": "vi managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 210
+},
+{
+  "fields": {
+    "name": "cy translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 211
+},
+{
+  "fields": {
+    "name": "cy managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 212
+},
+{
+  "fields": {
+    "name": "fy-NL translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 213
+},
+{
+  "fields": {
+    "name": "fy-NL managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 214
+},
+{
+  "fields": {
+    "name": "wo translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 215
+},
+{
+  "fields": {
+    "name": "wo managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 216
+},
+{
+  "fields": {
+    "name": "xh translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 217
+},
+{
+  "fields": {
+    "name": "xh managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 218
+},
+{
+  "fields": {
+    "name": "zu translators",
+    "permissions": [
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 219
+},
+{
+  "fields": {
+    "name": "zu managers",
+    "permissions": [
+      2,
+      1
+    ]
+  },
+  "model": "auth.group",
+  "pk": 220
+},
+{
+  "fields": {
+    "username": "AnonymousUser",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "last_login": null,
+    "groups": [],
+    "user_permissions": [],
+    "password": "",
+    "email": "",
+    "date_joined": "2016-02-05T13:09:04.873Z"
+  },
+  "model": "auth.user",
+  "pk": -1
+},
+{
+  "fields": {
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "last_login": null,
+    "groups": [],
+    "user_permissions": [],
+    "password": "bcrypthmac_key$2a$12$TTHyJMDOiFLT0iX2.m309uqMRGvc6Bt20YOpdajcO8lSJNHXVIN0m$hmac-key",
+    "email": "julien.bisconti@groups.be",
+    "date_joined": "2016-02-05T13:10:41.837Z"
+  },
+  "model": "auth.user",
+  "pk": 1
+}
+]
