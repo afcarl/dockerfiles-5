@@ -41,7 +41,7 @@ RUN apt-get update && \
     
 RUN add-apt-repository -y ppa:git-core/ppa && \
     apt-get update && \
-    apt-get install -y -q --no-install-recommends git
+    apt-get install -y -q --no-install-recommends git-core
 
 RUN git clone https://github.com/tj/n.git && \
     cd n && make install && \
